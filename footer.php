@@ -15,9 +15,19 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquerypp.custom.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.elastislide.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.liSlidik.js"></script>
 <script type="text/javascript">
 			
 	$( '#carousel' ).elastislide();
+    /*партфолио галерея*/
+    $(function(){
+    $(window).load(function(){
+        $('#slide_2').liSlidik({
+            auto:3000,
+            duration: 1000
+            });
+        })
+    });
 			
 </script>
 <?php wp_footer(); ?>

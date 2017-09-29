@@ -151,9 +151,9 @@ h1,h2,h3,h4,h5,h6{
 		font-size:17px; color:#565656;
 	}
 	.contact-form label{
-		width:150px; display:block; float:left;
+		width:150px; display:block;float: left;
 	}
-	.contact-form input[type=text]{
+	.contact-form input[type=text],[type=email]{
 		width:300px; padding:6px 20px; background:rgba(0,0,0,0.6); border:1px solid rgba(0,0,0,0.6); color:#fff; font-size:17px; border-radius:10px;
 	}
 	.contact-form textarea{
@@ -164,6 +164,21 @@ h1,h2,h3,h4,h5,h6{
 	}
 	textarea:focus{
 		border:1px solid #484848!important; outline:none;
+	}
+	.contact-form input[type=submit]{
+	font-size: 16px;
+    padding: 5px 15px;
+    color: #474747;
+    font-weight: 600;
+    background: #000;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
+	}
+	.contact-form input[type=submit]:hover{
+	color: #000;
+    background: #474747;
 	}
 .contact-address, .contact-phone, .contact-mail, .contact-liciense{
 	padding:0 0 0 30px;

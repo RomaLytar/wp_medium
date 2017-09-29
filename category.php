@@ -27,4 +27,4 @@
        
         
     </div>  
-    <?php get_footer(page); ?>
+    <?php get_footer(); ?>
